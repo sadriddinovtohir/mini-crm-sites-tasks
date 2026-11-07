@@ -1,0 +1,13 @@
+node_modules/
+dist/
+*.tsbuildinfo
+
+.env
+.env.*
+
+database/supabase/.temp/
+database/supabase/.branches/
+
+.vercel/
+.DS_Store
+Thumbs.db

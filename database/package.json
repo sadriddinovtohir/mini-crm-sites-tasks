@@ -1,0 +1,24 @@
+{
+  "name": "crm-database",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Supabase: миграции, роли, тестовые данные и проверка безопасности для мини-CRM «Объекты и задачи»",
+  "scripts": {
+    "db:link": "supabase link",
+    "db:push": "supabase db push",
+    "gen:types": "supabase gen types typescript --linked --schema public > ../frontend/src/types/database.ts",
+    "security-check": "tsx scripts/security-check.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.119.0",
+    "dotenv": "^18.0.9"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "supabase": "^3.0.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
