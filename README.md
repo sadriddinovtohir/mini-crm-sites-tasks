@@ -40,8 +40,8 @@ EXPLANATION.md               — объяснение для руководит�
 Нужны Node.js 20+ и проект в [Supabase](https://supabase.com).
 
 ```bash
-git clone <repo-url>
-cd <repo>
+git clone https://github.com/sadriddinovtohir/mini-crm-sites-tasks.git
+cd mini-crm-sites-tasks
 
 # 1. Зависимости
 cd database && npm i && cd ..
